@@ -8,7 +8,7 @@ export default function Logo({ sx }: BoxProps) {
       <Box
         component="img"
         alt="Netflix Logo"
-        src="/assets/netflix-logo.png"
+        src="https://www.talentotechbogota.co/images/TalentoTech.png"
         width={87}
         height={25}
         sx={{
