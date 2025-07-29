@@ -16,6 +16,8 @@ export async function loader() {
 export function Component() {
   const { data: genres, isSuccess } = useGetGenresQuery(MEDIA_TYPE.Movie);
 
+  console.log("holas_",genres);
+  
   if (isSuccess && genres && genres.length > 0) {
     return (
       <Stack spacing={2}>

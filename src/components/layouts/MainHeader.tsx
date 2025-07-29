@@ -131,7 +131,7 @@ const MainHeader = () => {
         </Stack>
 
         <Box sx={{ flexGrow: 0, display: "flex", gap: 2 }}>
-          <SearchBox />
+          
           <Tooltip title="Open settings">
             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
               <Avatar alt="user_avatar" src="/avatar.png" variant="rounded" />
